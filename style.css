@@ -1,0 +1,533 @@
+*{
+    font-family: 'Overpass';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;   
+}
+
+/* navbar styling */
+nav{
+    margin: 0 100px 0 97px;
+    background-color: white;
+}
+nav .container-fluid{
+    background-color: white;
+}
+nav .container-fluid span{
+    position: absolute;
+    left: 4.17%;
+    right: 86.1%;
+    top: 28.57%;
+    bottom: 29.54%;
+}
+nav .container-fluid img{
+    position: absolute;
+    left: 2%;
+    right: 96.84%;
+    top: 32.37%;
+}
+nav .container-fluid ul li a{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #6D7287;
+}
+nav .container-fluid form #btn1{
+    border: 2px solid #4C70F0;
+    margin: 2px 22px 0 10px;
+    height: 34px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #4C70F0;
+
+/* Referizzer Main */
+
+color: #4C70F0;
+}
+
+nav .container-fluid form #btn2{
+    color: #F3F5FD;
+    background: #4C70F0;
+    border-radius: 6px;
+
+}
+ /* container section  */
+.a1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 8%;
+    height: 518px;
+    background: #23283C;
+    
+}
+.a1 .container{
+    max-width: 71%;
+}
+.a1 .container .img4{
+    position: absolute;
+    width: 43px;
+    height: 80.94px;
+    left: 0;
+    top: 516.6px;
+
+}
+.a1 .container .img2{
+   position: absolute;
+    width: 2.25%;
+    height: 6%;
+    left: 6%;
+    top: 22%;
+    
+}
+.img5{
+    position: absolute;
+    right: 9%;
+    top: 15%;
+    
+}
+.rounded{
+    margin-top: 3%;
+}
+.a1 .container .a2{
+    margin-top: 102px;
+    height: 21px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%; 
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.a1 .container .a3{
+    width: 521px;
+    height: 128px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.a1 .container .a4{
+    width: 521px;
+    height: 80px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+/* mission section */
+.m1{
+   
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;   
+}
+
+.m1 .container{
+    max-width: 71%;
+}
+.m1 .container img{
+    position: absolute;
+    margin-top: -43px;
+    width: 423px;
+    height: 448px;
+    right: 10%;
+}
+.m1 .container .a2{
+    width: 48px;
+    height: 21px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #4C70F0;
+    opacity: 0.8;   
+}
+.m1 .container .a3{
+    width: 480px;
+    height: 44px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #3C4257;
+}
+.m1 .container .a4{
+    width: 480px;
+    height: 202px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #6B7B9C;
+}
+
+/* number section styling */
+.number{
+    padding: 45px;
+    background-color: #F3F5FD;
+}
+.number .n1{
+    width: 530px;
+    height: 21px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4C70F0;
+    opacity: 0.8;
+}
+.number .n2{
+    width: 530px;
+    height: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #3C4257;
+}
+.number .n3{
+       height: 86px;
+       font-family: 'Overpass';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 17px;
+       line-height: 28px;
+       text-align: center;
+       color: #6B7B9C;
+}
+.number .col h6{
+    width: 196px;
+    height: 99px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 132%;
+    text-align: center;
+    color: #3C4257;
+}
+.number .col p{
+    margin-right: 132px;
+    height: 31px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 9px;
+    text-align: center;
+    color: #6B7B9C;
+}
+
+/* values section styling */
+
+.value{
+    padding: 60px;
+    
+}
+.value .v1{
+    width: 530px;
+    height: 21px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4C70F0;
+    opacity: 0.8;
+}
+.value .v2{
+    height: 48px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #3C4257;
+}
+.value .row{
+    margin-top: 9%;
+}
+
+.value .col h6{
+        /* width: 212px; */
+    height: 99px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 552%;
+    text-align: center;
+    color: #3C4257;
+}
+.value .col p{
+     height: 70px;
+     font-family: 'Overpass';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 150%;
+     text-align: center;
+     color: #6B7B9C;
+}
+
+/* people first styling */
+
+#people-first{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px;
+    gap: 108px;
+}
+#people-first .b1{
+    height: 21px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #4C70F0;
+    opacity: 0.8;
+}
+#people-first .b2{
+    height: 51px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #3C4257;
+}
+/* #people-first .img1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 7.99px;
+
+position: absolute;
+width: 340.55px;
+height: 708.28px;
+left: 340.55px;
+top: 708.28px;
+
+opacity: 0.5;
+transform: rotate(-180deg);
+} */
+
+/* join section  */
+
+.join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 44px;
+    height: 357px;
+    background: #F4F6FE;
+}
+.join .j1{
+    height: 44px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3C4257;
+}
+.join .j2{
+    height: 49px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6B7B9C;
+}
+.button #btn1{
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    height: 40px;
+    background: #4C70F0;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.button #btn1:hover{
+    background: #3C4257;
+    
+}
+.button #btn2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4C70F0;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    /* gap: 10px; */
+    /* width: 142px; */
+    height: 40px;
+    border: 1px solid #4C70F0;
+    border-radius: 8px;
+}
+
+/* last section styling */
+.foot{
+    color: #FFFFFF;
+    background-color: #23283B;
+    /* position: absolute; */
+    /* width: 1440px; */
+    height: 480px;
+    /* left: 0px; */
+    /* top: 357px; */
+}
+#f1 .row span{
+    font-size: 18px;
+}
+#f1 .row{
+    padding: 8%;
+}
+#f1 .row .col h5{
+    width: 72px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#f1 .row .col h4{
+    /* width: 72px;  */
+    /* height: 21px; */
+    margin-top: 16px;
+
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    /* line-height: 18px; */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+}
+#f1 .row .col h4:hover{
+    cursor: pointer;
+    color: #F3F5FD;
+}
+
+.collection{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 77px;
+    /* width: 461px; */
+    /* height: 35px; */
+    margin-left: 54%;
+}
+.collection .copy{
+height: 21px;
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+opacity: 0.6;
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+.collection .login{
+height: 21px;
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: rgba(255, 255, 255, 0.6);
+}
+.collection .login:hover{
+    cursor: pointer;
+}
+.collection .more{
+height: 21px;
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: rgba(255, 255, 255, 0.6);
+}
+.collection .more:hover{
+    cursor: pointer;
+}
+.social{
+    margin-left: -60%;
+}
+.social:hover{
+    cursor: pointer;
+}
